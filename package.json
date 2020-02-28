@@ -1,0 +1,27 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "push": "git push origin --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1Rs/import-export.git"
+  },
+  "author": "Renat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R1Rs/import-export/issues"
+  },
+  "homepage": "https://github.com/R1Rs/import-export#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
